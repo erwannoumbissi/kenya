@@ -1,0 +1,149 @@
+
+.martial{
+    margin-left: 30%;
+    margin-right: 5%;
+    width: 450px;
+    font-family: arial;
+    box-shadow: 2px 2px 2px 2px rgb(162, 160, 160);
+}
+
+@media screen and (max-width:425px) and (min-width: 320px){
+    .martial{
+        margin-left:1%;
+        margin-right: 50%;
+        width: 350px;
+        font-family: arial;
+        box-shadow: 2px 2px 2px 2px rgb(162, 160, 160);
+    }
+}
+
+.imgs{
+    margin-left: 4%; 
+    margin-top: 2%;
+}
+@media screen and (max-width:425px) and (min-width: 320px){
+    .imgs{
+        margin-right: 3000px;
+        margin-top: 2%;
+        margin-left: 15px;
+        width: 320px;
+    }
+}
+.ok{
+    padding: 8%;
+}
+.money{
+    color: blue;
+}
+.zouk{
+    opacity: 0.4;
+}
+.mignon{
+    opacity: 0.4;
+    margin-left: 35%;
+    margin-top: -23px;
+}
+.boss{
+    
+    position: relative;
+    overflow: hidden;
+    
+}
+img{
+    transition:  1s;
+}
+.boss:hover .flamme{
+    top: 50%;
+    position: absolute;
+    align-items: center;
+
+}
+
+.boss:hover img{
+transform: scale(1.1);
+}
+
+.flamme{
+    color: black;
+    margin-left: 35%;
+    position: absolute;
+    top: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition:  1s;
+    font-size: 1rem;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid blue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+@media screen and (max-width:1024px) and (min-width: 320px) {
+    
+    img{
+        transition:  1s;
+    }
+    .boss:hover .martial{
+        top: 50%;
+        position: absolute;
+        align-items: center;
+    }
+    
+    .boss:hover img{
+    transform: scale(1.1);
+    }
+    
+    .flamme{
+        color: black;
+        margin-left: 35%;
+        position: absolute;
+        top: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition:  1s;
+        font-size: 1rem;
+    }
+    .button{
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+        padding: 5px;
+        border: solid blue;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}
+.demoDate{
+    text-align: center;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.boy{
+    display: flex;
+    letter-spacing: 3px;
+    border: solid rgb(145, 143, 143);
+    border-radius: 5px;
+}
+  
+.time{
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:425px) and (min-width: 320px) {
+    .time{
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+    .miel{
+        margin-left: 25%;
+    }
+}
